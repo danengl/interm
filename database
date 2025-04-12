@@ -10,4 +10,11 @@ password VARCHAR(255) NOT NULL,
 profile_pic VARCHAR(255)
 );
 
+
+INSERT INTO employee (name, position, salary, password) VALUES
+('mommy oni', 'Software Engineer', 70000.00),
+('tanggol', 'Project Manager', 90000.00, ),
+('cong tv', 'HR Manager', 80000.00, "password"),
+("John mark sta ana" , "Tambay" , "500", "password");
+
  SELECT* FROM users;
